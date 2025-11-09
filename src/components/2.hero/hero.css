@@ -1,0 +1,109 @@
+.hero img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 90px;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 35px;
+}
+
+.hero h2{
+    font-size: 90px;
+    font-weight: 600;
+    text-align: center;
+    width: 70%;
+}
+
+.hero h2 div{
+    font-size: 90px;
+    font-weight: 600;
+     background: linear-gradient(267deg,#DA7C25 0.36%,#a57cce 100%);
+     background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.hero p{
+    font-size: 22px;
+    width: 60%;
+    line-height: 40px;
+}
+
+.hero-action{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    gap: 30px;
+
+}
+
+.hero-connection{
+    padding: 12px 25px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,#DA7C25 0.36%,#ac88d1 100%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero-connection:hover{
+    box-shadow: 0 0 15px #DA7C25;
+    transform: scale(1.05);
+}
+.hero-resume{
+    padding: 12px 25px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero-resume:hover{
+    box-shadow: 0 0 15px white;
+    transform: scale(1.05);
+}
+
+.hero h3 span {
+  font-weight: bold;
+  font-size: 75px;
+}
+
+@media(max-width:768px){
+    .hero img{
+        margin-top: 120px;
+        width: 290px;
+    }
+    .hero h2{
+        margin-top: 50px;
+        width: 90%;
+        font-size: 50px;
+    }
+    .hero p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .hero-connection{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .hero-resume{
+        padding: 20px 50px;
+        border-radius: 40px;
+    }
+}

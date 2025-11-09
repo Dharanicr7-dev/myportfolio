@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    height: 100vh;
+    background-color: #161513;
+    color: white;
+    font-family: 'outfit';
+
+}
+.bg-image img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.2;
+}
