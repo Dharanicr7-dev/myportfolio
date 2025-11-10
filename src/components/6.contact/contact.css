@@ -123,7 +123,7 @@
     transform: scale(1.05);
 }
 
-@media(max-width:768px){
+@media(max-width:600px){
     .contact{
         gap: 50px;
         margin: 50px 70px;

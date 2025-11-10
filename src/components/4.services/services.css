@@ -82,7 +82,7 @@
     transition: 0.4s;
 }
 
-@media(max-width:768px){
+@media(max-width:600px){
     .services{
         align-items: center;
         gap: 70px;

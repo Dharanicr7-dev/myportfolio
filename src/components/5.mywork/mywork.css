@@ -84,7 +84,7 @@
     height: 20px;
 }
 
-@media(max-width:768px){
+@media(max-width:600px){
     .mywork{
         gap: 50px;
         margin: 50px 70px;
