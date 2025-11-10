@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 // import themepattern from '../../assets/dd.png'
-import heroimg from "../../assets/hero1.JPG";
+import heroimg from "../../assets/hero1.jpg";
 
 const About = () => {
   return (
